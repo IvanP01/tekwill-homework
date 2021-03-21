@@ -1,4 +1,4 @@
-package edu.tekwill.exercise2003.breackDigits;
+package edu.tekwill.exercise2003.breakDigits;
 
 
 /*Write a Java program to break an integer into a sequence of individual digits.
@@ -10,11 +10,22 @@ Acest exercițiu este practică cu operatorul %*/
 
 import java.util.Scanner;
 
-public class BreackDigits {
+public class BreakDigits {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(S)
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Input six non-negative digits: ");
+
+        int input = scanner.nextInt();
+        int n1 = input / 100000 % 10;
+        int n2 = input / 10000 % 10;
+        int n3 = input / 1000 % 10;
+        int n4 = input / 100 % 10;
+        int n5 = input / 10 % 10;
+        int n6 = input % 10;
+
+        System.out.println(n1 + " " + n2 + " " + n3 + " " + n4 + " " + n5 + " " + n6);
 
     }
 }
