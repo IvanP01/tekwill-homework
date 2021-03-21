@@ -1,4 +1,4 @@
-package edu.tekwill.exercise2003.unaryIncrementAndDecrement;
+package edu.tekwill.exercise2003.ex4.unaryIncrementAndDecrement;
 
 public class IncrementAndDecrement {
 

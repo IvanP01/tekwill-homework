@@ -1,4 +1,4 @@
-package edu.tekwill.exercise2003.calculateSpeed;
+package edu.tekwill.exercise2003.ex2.calculateSpeed;
 
 import java.util.Scanner;
 

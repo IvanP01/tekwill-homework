@@ -1,4 +1,4 @@
-package edu.tekwill.exercise1803.favoriteMovieQuote;
+package edu.tekwill.exercise1803.ex1.favoriteMovieQuote;
 
 public class MyFavoriteMovieQuote {
 

@@ -1,4 +1,4 @@
-package edu.tekwill.exercise1803.favoriteMouvieDetails;
+package edu.tekwill.exercise1803.ex2.favoriteMouvieDetails;
 
 public class MyFavoriteMovieDetails {
 

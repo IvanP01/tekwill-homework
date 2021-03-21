@@ -1,4 +1,4 @@
-package edu.tekwill.exercise1803.patternOnTheScreen;
+package edu.tekwill.exercise1803.ex3.patternOnTheScreen;
 
 public class PatternOnTheScreen {
 

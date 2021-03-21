@@ -1,4 +1,4 @@
-package edu.tekwill.exercise2003.breakDigits;
+package edu.tekwill.exercise2003.ex3.breakDigits;
 
 
 /*Write a Java program to break an integer into a sequence of individual digits.

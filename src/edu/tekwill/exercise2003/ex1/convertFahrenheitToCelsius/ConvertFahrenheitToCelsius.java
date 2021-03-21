@@ -1,6 +1,5 @@
-package edu.tekwill.exercise2003.convertFahrenheitToCelsius;
+package edu.tekwill.exercise2003.ex1.convertFahrenheitToCelsius;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 /*Write a Java program to convert temperature from Fahrenheit to Celsius degree.
