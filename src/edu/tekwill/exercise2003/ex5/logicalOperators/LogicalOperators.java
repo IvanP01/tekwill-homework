@@ -25,7 +25,7 @@ public class LogicalOperators {
         System.out.println(c++ > a && a < b || c++ < 30);//prima expresie ii true, a doua expresie dupa sout este truesi ambele sunt true
         //System.out.println(a < b || c++ < 30);//true
         System.out.println("a = " + a);//19
-        System.out.println("b = " + b);//23
+        System.out.println("b = " + b);//21
         System.out.println("c = " + c);//31
 
     }
