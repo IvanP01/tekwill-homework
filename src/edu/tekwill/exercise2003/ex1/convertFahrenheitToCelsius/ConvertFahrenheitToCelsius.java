@@ -18,7 +18,7 @@ public class ConvertFahrenheitToCelsius {
         double fahrenheit = input.nextDouble();
 
         double celsius =(( 5 *(fahrenheit - 32.0)) / 9.0);
-        System.out.println(fahrenheit + " degree Fahrenheit is equal to " + celsius + " in Celsius");
+        System.out.println(fahrenheit +" \u00B0F" + " degree Fahrenheit is equal to " + celsius + " in \u00B0C ");
 
     }
 }

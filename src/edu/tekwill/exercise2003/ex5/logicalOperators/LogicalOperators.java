@@ -22,7 +22,7 @@ public class LogicalOperators {
 
         System.out.println(++a > 18 || b++ < 10);//avem ++a preincrement deci ++a va fi 19>18 respectiv avem true
         System.out.println(b-- > 30 && a++ < 30);//avem b-- postincrement deci b-- va fi 22>30 //false
-        System.out.println(c++ > a && a < b || c++ < 30);//prima expresie ii true, a doua expresie dupa sout este truesi ambele sunt true
+        System.out.println(c++ > a && a < b || c++ < 30);//prima expresie ii true, a doua expresie dupa sout este true si ambele sunt true
         //System.out.println(a < b || c++ < 30);//true
         System.out.println("a = " + a);//19
         System.out.println("b = " + b);//21
