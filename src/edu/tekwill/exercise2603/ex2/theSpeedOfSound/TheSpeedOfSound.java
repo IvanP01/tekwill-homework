@@ -5,27 +5,26 @@ import java.util.Scanner;
 public class TheSpeedOfSound {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter distance: ");
-       // System.out.print("Enter air, water, or steel: ");
+        System.out.println("Enter air, water, or steel: ");
+        String mediumFromUser = scanner.nextLine();
 
-        String userInputDistance , air, water, steel;
-       // String air = scanner.nextLine();
-      //  String water = scanner.nextLine();
-     //   String steel = scanner.nextLine();
+        System.out.println("Please enther the distance that the sound wave will travel in this medium: ");
+        float distanceFromUser = scanner.nextFloat();
+        float time = 0;
 
-        int distance, time;
-        distance = scanner.nextInt();
-        userInputDistance = scanner.nextLine();
+        if (mediumFromUser.equalsIgnoreCase("air")) {
+            time = (distanceFromUser / 1100);
+            System.out.println("The total time traveled is " + time);
 
-        if (userInputDistance.equalsIgnoreCase("air")) {
-            time = (distance / 1100);
+        } else if (mediumFromUser.equalsIgnoreCase("water")) {
+            time = (distanceFromUser / 4900);
             System.out.println("The total time traveled is " + time);
-        } else if (userInputDistance.equalsIgnoreCase("water")) {
-            time = (distance / 4900);
+
+        } else if (mediumFromUser.equalsIgnoreCase("steel")) {
+            time = (distanceFromUser / 16400);
             System.out.println("The total time traveled is " + time);
-        } else if (userInputDistance.equalsIgnoreCase("steel")) {
-            time = (distance / 16400);
-            System.out.println("The total time traveled is " + time);
+        } else {
+            System.out.println("You either entered a unknown medium, either a negative or zero distance.");
         }
     }
 }
