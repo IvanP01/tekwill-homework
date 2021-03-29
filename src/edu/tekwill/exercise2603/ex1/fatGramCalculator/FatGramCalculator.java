@@ -34,7 +34,7 @@ public class FatGramCalculator {
         if (caloriesFromFat > numOfCalories) {
             System.out.println("The input is invalid");
         } else {
-            if (caloriesFromFat < (30 / 100) * numOfCalories) {
+            if (caloriesFromFat < (30.0 / 100) * numOfCalories) {
                 System.out.println("The food is low a fat");
             }
             System.out.println("The percentage of calories that come from fat is " + percentageOfCalorieFromFat + "%");
