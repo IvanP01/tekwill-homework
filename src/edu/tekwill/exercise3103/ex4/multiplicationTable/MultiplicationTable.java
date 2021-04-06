@@ -7,10 +7,13 @@ public class MultiplicationTable {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Input number: ");
-        int number = scanner.nextInt();
+        final int number = scanner.nextInt();
 
-        for (int i = 0; i < 2; i++) {
-            System.out.println(number + " x " + (i + 1) + " = " + (number * (i + 1)));
+        System.out.println("Please enter the number of times to multiply the number: ");
+        final int timesToMultiplay = scanner.nextInt();
+
+        for (int i = 1; i <= timesToMultiplay; i++) {
+            System.out.println(number + " x " + i + " = " + (number * i));
         }
     }
 }

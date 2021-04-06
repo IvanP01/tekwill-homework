@@ -5,18 +5,13 @@ import java.util.Scanner;
 public class CalculatingAndReportingTheCumulativeSum {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int i, num1, num2, sum = 0;
+        int sum = 0;
 
-        System.out.print("Enter First Number: ");
-        num1 = in.nextInt();
+        System.out.print("Enter an Number: ");
 
-        System.out.print("Enter Second Nmber: ");
-        num2 = in.nextInt();
-
-        //Aici am nevoie de ajutor
-        for (i = num1; i <= num2; i++) {
-            sum += i;
+        for (int userNUmber = in.nextInt(); userNUmber != 0; userNUmber = in.nextInt()) {
+            sum += userNUmber;
+            System.out.println("Sum of Integers is: " + sum);
         }
-        System.out.println("Result is: " + sum);
     }
 }
